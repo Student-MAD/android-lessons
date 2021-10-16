@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JuiceAdvicer</string>
+    <string name="button_text">Select</string>
+    <string name="text_view_text">No juices selected</string>
+    <string-array name="juice_brands">
+        <item>Rich</item>
+        <item>J7</item>
+        <item>Добрый</item>
+    </string-array>
+</resources>
