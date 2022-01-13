@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/menuFragment1"
+            android:title="Fragment1"
+            android:icon="@drawable/ic_baseline_access_time_24" />
+
+        <item
+            android:id="@+id/menuFragment2"
+            android:title="Fragment2"
+            android:icon="@drawable/ic_baseline_accessibility_24" />
+
+        <item
+            android:id="@+id/menuFragment3"
+            android:title="Fragment3"
+            android:icon="@drawable/ic_baseline_add_circle_24" />
+    </group>
+
+    <item
+        android:id="@+id/itemSubMenu"
+        android:title="SubMenu">
+
+        <menu>
+            <item
+                android:checked="true"
+                android:id="@+id/menuFragment4"
+                android:title="Fragment1"
+                android:icon="@drawable/ic_baseline_access_time_24" />
+
+            <item
+                android:id="@+id/menuFragment5"
+                android:title="Fragment2"
+                android:icon="@drawable/ic_baseline_accessibility_24" />
+
+            <item
+                android:id="@+id/menuFragment6"
+                android:title="Fragment3"
+                android:icon="@drawable/ic_baseline_add_circle_24" />
+        </menu>
+    </item>
+</menu>
